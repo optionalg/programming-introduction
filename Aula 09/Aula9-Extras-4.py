@@ -37,7 +37,7 @@ while row_count < rows:
                         bcolors.OKBLUE + \
                         "{0:.2f}".format(price * copies) +\
                         bcolors.ENDC +\
-                        " "
+                        "\t"
 
         column_count += 1
 
