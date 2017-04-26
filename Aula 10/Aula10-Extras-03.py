@@ -7,15 +7,12 @@ def read_number():
             return number
 
 
-number = read_number()
-
-
 def h_value(number):
+    h = 0
     for i in range(1, number):
+        h += 1 / i
+    return h
 
 
-
-
-
-
-
+number = read_number()
+print(h_value(number))
